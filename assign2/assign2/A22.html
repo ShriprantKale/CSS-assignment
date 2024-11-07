@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centered Div</title>
+ <style>
+    * {
+    box-sizing: border-box; 
+}
+
+body, html {
+    height: 100%; 
+    margin: 0; 
+}
+
+.container {
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    height: 100vh; 
+}
+
+.centered-div {
+    width: 1200px; 
+    height: 600px; 
+    background-color: #4CAF50; 
+    color: white; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    border-radius: 10px; 
+    text-align: center; 
+}
+ </style>
+</head>
+<body>
+    <div class="container">
+        <div class="centered-div">
+            <h1>Centered Div</h1>
+            <p>This div is centered on the page.</p>
+        </div>
+    </div>
+</body>
+</html>
